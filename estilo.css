@@ -178,6 +178,9 @@ video{
   right: 0;
   background: rgba(0,159,227, 0.5);
 	transition: all .3s linear;
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-ms-transition: all .3s linear;
 }
 
 .tint:hover:before { background: none; }
